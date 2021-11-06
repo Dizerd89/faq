@@ -1,0 +1,63 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+     font-family: «PT Sans», без засечек;
+}
+
+#selector_id {
+    width: 100%;
+    height: 100%;
+   background-color: rgb(160, 135, 170); 
+}
+
+.Card {
+    background-color: blanchedalmond;
+    width: calc(256px - 32px) ;
+    height: 300px;
+    display: inline-block;
+    margin: 16px 8px;
+    border: 5px solid rgb(37, 15, 240);
+    border-radius: 12px;
+    transition: box-shadow .25s;
+    padding: 16px;
+    opacity: .25;
+}
+
+.Card:hover{
+    box-shadow: 0px 16px 24px rgba(0, 0, 0,  0.33%);
+    opacity: 1;
+}
+
+.Card_dashed{
+    border: 5px dashed rgb(37, 15, 240);
+}
+
+.Card_radius-0{
+    border-radius: 0;
+}
+
+.Card_radius-7{
+    border-radius: 7px;
+}
+
+.Card__image {
+    height: 120px;
+     width: 120px;
+     /* box-shadow: 0 0 0 #000; */
+     box-shadow: 2px 12px 5px rgb(0, 0, 0,  .16)
+}
+
+.Card__title {
+    color: rgb(130, 238, 171);
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.Card__info {
+    color: rgb(134, 80, 80);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: .5;
+}
